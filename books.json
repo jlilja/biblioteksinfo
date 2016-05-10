@@ -1,0 +1,190 @@
+{
+"data": [
+    {
+        "name" : "Böcker",
+        "sub" : [
+            { 
+                "name": "Vuxen",
+                "sub": [
+                    {
+                        "name": "Skönlitteratur",
+                        "sub": [
+                            {
+                                "name": "Svenska",
+                                "signum": "hce",
+                                "shape" : "hylla",
+                                "floor" : "1",
+                                "pos": [
+                                    { "x": 77, "y": 40 },
+                                    { "x": 84, "y": 40 },
+                                    { "x": 77, "y": 42 },
+                                    { "x": 84, "y": 42 }
+                                ]
+                            },
+                            {
+                                "name": "Engelska",
+                                "signum": "he",
+                                "shape" : "hylla",
+                                "floor" : "1",
+                                "pos": [
+                                    { "x": 92, "y": 35 },
+                                    { "x": 92, "y": 37 }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            { 
+                "name": "Ungdom",
+                "sub": [
+                    {
+                        "name": "Skönlitteratur",
+                        "sub": [
+                            {
+                                "name": "Svenska",
+                                "signum": "uhce",
+                                "shape" : "hylla",
+                                "floor" : "1",
+                                "pos": [
+                                    { "x": 77, "y": 44 },
+                                    { "x": 84, "y": 44 }
+                                ]
+
+                            }
+                        ]
+                    }
+                ]
+            },
+            { 
+                "name": "Barn",
+                "sub": [
+                    {
+                        "name": "Skönlitteratur",
+                        "sub": [
+                            {
+                                "name": "Svenska",
+                                "signum": "hcf",
+                                "shape" : "custom",
+                                "width" : "8.5",
+                                "height" : "6",
+                                "round" : "50",
+                                "floor" : "1",
+                                "pos": { "x": 84, "y": 75 }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]   
+    },
+    {
+        "name" : "Tidningar",
+        "sub" : [
+            {
+                "name" : "Dagstidningar",
+                "signum" : "p-dag",
+                "width" : "16",
+                "height" : "7.8",
+                "floor" : "2",
+                "shape" : "custom",
+                "pos": { "x": 80.5, "y": 81.3 }
+            },
+            {
+                "name" : "Äldre tidningar",
+                "signum" : "p-old",
+                "shape" : "custom",
+                "width" : "18",
+                "height" : "8.5",
+                "floor" : "0",
+                "pos": { "x": 39, "y": 62 }
+            }
+        ]
+    },
+    {
+        "name" : "Rum",
+        "sub" : [
+            {
+                "name" : "Dialogen",
+                "signum" : "dialogen",
+                "width" : "4",
+                "height" : "2",
+                "floor" : "1",
+                "rotate" : "25",
+                "shape" : "rum",
+                "pos": { "x": 42, "y": 41.5 }
+            },
+            {
+                "name" : "Gröna huset",
+                "signum" : "gronahuset",
+                "floor" : "1",
+                "width" : "15.8",
+                "height" : "3.5",
+                "shape" : "rum",
+                "pos": { "x": 49.6, "y": 47.4 }
+            },
+            {
+                "name" : "Gula huset",
+                "signum" : "gulahuset",
+                "floor" : "1",
+                "width" : "13",
+                "height" : "3.5",
+                "shape" : "rum",
+                "pos": { "x": 77, "y": 35.3 }
+            }
+        ]
+    },
+    {
+        "name" : "Tjänster",
+        "sub" : [
+            {
+                "name" : "Kopiator/Scanner",
+                "signum" : "kopiator",
+                "shape" : "elektronik",
+                "floor" : "1",
+                "pos": { "x": 40, "y": 65 }
+            },
+            {
+                "name" : "Toaletter",
+                "signum" : "toalett",
+                "floor" : "1",
+                "pos": { "x": 40, "y": 65 }
+            },
+            {
+                "name" : "Drop-in Dator",
+                "signum" : "dropindator",
+                "shape" : "elektronik",
+                "floor" : "1",
+                "pos": { "x": 40, "y": 65 }
+            },
+            {
+                "name" : "Studieplatser med el",
+                "signum" : "Studieplatser-med-el",
+                "shape" : "elektronik",
+                "floor" : "1",
+                "pos": [
+                    { "x": 40, "y": 65 },
+                    { "x": 40, "y": 60 }
+                    ]
+            },
+            {
+                "name" : "Studieplatser utan el",
+                "signum" : "Studieplatser-sans-el",
+                "floor" : "1",
+                "width" : "1",
+                "height" : "47",
+                "shape" : "rum",
+                "pos": { "x": 99, "y": 20 }
+            }
+        ]
+    },
+    {
+        "name" : "Var är jag?",
+        "signum" : "position",
+        "shape" : "position",
+        "floor" : "1",
+        "pos" : { "x" : 69, "y" : 69},
+        "round" : "50"
+    }
+]
+}

@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('../fonts/Open Sans Regular'), local('../fonts/Open-Sans-Regular'),
+  url('../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+h1 {
+	font-size: 1.5em;
+	padding-left: 25px;
+}
+p, li {
+	font-family: "Open Sans", sans-serif;
+}
+p {
+	font-size: 0.9em;
+}
+li {
+	font-size: 0.9em;
+	line-height: 2;
+}
+span {
+	width: 100%;
+	display: inline-block;
+}
+.bibliotek {
+	font-size: 0.75em;
+}
+#reset {
+	font-size: 1.5em;
+}
+#expand {
+	h1 {
+		// font-size: 1.5em;
+	}
+	font-size: 3em;
+	list-style-type: none;
+	li a {
+		color: $listBlack;
+	}
+	li a:visited {
+		color: $listBlack;
+	}
+	ul li a:visited {
+		color: $listBlack;
+	}
+}

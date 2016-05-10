@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<meta charset="UTF-8">
+	<title>Biblioteksinfo</title>
+	<link rel="stylesheet" href="css/main.css">
+	<script type='text/javascript' src='js/bundle.js'></script>
+</head>
+<body>
+	<!-- left col -->
+	<div class="left-col">
+		<div id="reset" onclick="refresh()"><p>Återställ</p></div>
+		<div class="map">
+			<div class="responsiveImg">
+				<img id="floor-0" src="img/library_basement.svg" style="position:absolute; visibility:hidden;">
+				<img id="floor-2" src="img/top.svg" style="position:absolute; visibility:hidden;">
+				<img id="floor-1" src="img/library.svg" style="visibility:visible;">
+				<div class="libraryPosition">
+				</div>
+			</div>
+			<!-- <div class="position"><div class="pos"></div><p> = Du är här</p></div> -->
+		</div>
+	</div>
+	<!-- right col -->
+	<div class="right-col">
+		<!-- <ul class="sections">
+			<li id="expList"><img src="img/library/small_stiftbiblioteket.jpg" alt=""><p>Stadsbiblioteket</p></li>
+			<li id="medborgarkontoret"><img src="img/library/small_medborgarkontor.jpg" alt=""><p>Medborgarkontoret</p></li>
+			<li id="stadsarkivet"><img src="img/library/small_stadsarkiv.jpg" alt=""><p>Stadsarkiv</p></li>
+			<li id="regionsbiblioteket"><img src="img/library/small_regionbiblio.jpg" alt=""><p>Regionsbiblioteket</p></li>
+		</ul> -->
+		<div class="content">
+			<div id="expand">
+				<h1 class="bibliotek">Orienteringskarta</h1>
+			</div>
+			<div class="closed medborgarkontoret">
+				<h1>Medborgarkontoret</h1>
+				<ul>
+				Mån-Fre 10-15
+				</ul>
+			</div>
+			<div class="closed stadsarkivet">
+				<h1>Stadsarkivet</h1>
+				<ul>
+				Mån-Fre 10-15
+				</ul>
+			</div>
+			<div class="closed regionsbiblioteket">
+				<h1>Regionsbiblioteket</h1>
+				<ul>
+				Mån-Fre 10-15
+				</ul>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div style="display:none;" class="prefs">
+			<img src="img/sweden.png">
+			<img src="img/england.png">
+			<!-- <img src="img/wheel.png" id="preferences"  alt="preferences"> -->
+		</div>
+	</footer>
+</body>
+</html>

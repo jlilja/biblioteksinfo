@@ -1,0 +1,71 @@
+/*
+* {
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	-ms-user-select:none; 
+	user-select:none;
+	-o-user-select:none;
+	cursor: none;
+}
+*/
+* {
+  box-sizing: border-box;
+}
+html {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	body {
+		height: 100%;
+		width: 100%;
+		display: table;
+		.left-col {
+			width: 60%;
+			display: table-cell;
+			border-right: 1px solid gray;
+			#reset {
+				position: absolute;
+				width: 150px;
+				height: 80px;
+				//background-color: red;
+				top: 20px;
+				left: 20px;
+				border: gray 2px solid;
+				text-align: center;
+				content: "<p>Återställ</p>"
+			}
+		}
+		.right-col {
+			width: 40%;
+			display: table-cell;
+			.sections {
+				display: inline-block;
+				padding: 0;
+				border-bottom: 1px solid gray;
+				margin: 0;
+				li {
+					width: 25%;
+					padding: 2px;
+					list-style-type: none;
+					float: left;
+					text-align: center;
+					img {
+						display: block;
+						width: 100%;
+					}
+				}
+			}
+		}
+		footer {
+				width: 100%;
+				position: fixed;
+				left: 0;
+				bottom: 0;
+				img {
+					float: right;
+					width: 100px;
+					margin: 10px;
+				}
+		}
+	}
+}
